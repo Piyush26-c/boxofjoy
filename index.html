@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxofJoy - Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f9f9f9;
+        }
+        header {
+            background: #ff6f61;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        nav {
+            background: #ff8a75;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+            padding: 0 10px;
+        }
+        .product button {
+            background: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background: #e65a50;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Welcome to BoxofJoy 🎁
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200?text=Product+1" alt="Product 1">
+            <h3>Gift Box A</h3>
+            <p>Perfect gift for your loved ones.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200?text=Product+2" alt="Product 2">
+            <h3>Gift Box B</h3>
+            <p>Surprise inside for a joyful moment.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200?text=Product+3" alt="Product 3">
+            <h3>Gift Box C</h3>
+            <p>Special box for special occasions.</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+</body>
+</html>
